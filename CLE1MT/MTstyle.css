@@ -1,0 +1,321 @@
+body, html {
+    height: 100%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+}
+
+#bg-image {
+    background-image: url("orphans.PNG");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#wrapper{
+    width: 95%;
+    height: 9%;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    background-color: #217581;
+}
+
+#box-one{
+    width: 900px;
+    height: 320px;
+    margin: 50px;
+    padding: 5px;
+    position: fixed;
+    top: 30%;
+    left: 22%;
+}
+
+h1{
+    display: block;
+    font-weight: 800;
+    color: aliceblue;
+    font-size: 40px;
+}
+h1 a:link, h1 a:visited{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
+h1 a:hover{
+    color: #f67d7b;
+    text-decoration: none;
+}
+
+h2{
+    margin: 5px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+h3{ 
+    margin: 5px;
+    font-weight: 300;
+    text-align: center;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+h4{
+    list-style-type: none;
+    width: 150px;
+    margin: 10px;
+    padding: 7px;
+    position: absolute;
+    left: 41%;
+    right: 50%;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 25px;
+    background-color: #217581;
+}
+h4 a:link, h4 a:visited{
+    color: aliceblue;
+    text-decoration: none;
+}
+h4:hover{
+    background-color: #f67d7b;
+}
+
+#logo{
+    width: 50%;
+    height: 30px;
+    margin: 10px auto;
+    float: left;
+}
+
+#menu{
+    width: 50%;
+    height: 50px;
+    margin: 10px auto;
+    float: right;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+#menu a {
+    display: block;
+    width: 150px;
+    padding: 3px;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#menu a:link, #menu a:visited{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#menu a:hover{
+    color: #f67d7b;
+    text-decoration: none;
+}
+
+#menu li{
+    float: left;
+}
+
+#abox{
+    width: 70%;
+    height: 250%;
+    margin: 100px;
+    position: absolute;
+    left: 10%;
+    text-align: center;
+}
+
+#abox-title{
+    width: 80%;
+    height: 4%;
+    margin-top: 4%;
+    margin-left: 10%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    color: #252932;
+}
+
+#abox p{
+    width: 80%;
+    height: 7%;
+    margin-left: 10%;
+    text-align: left;
+    font-weight: 600;
+    font-size: 30px;
+    color: #252932;
+}
+
+#abox p2, #abox p3{
+    width: 100%;
+    margin: 5px;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 20px;
+    float: left;
+    color: #252932;
+}
+
+#g-box{
+    width: 70%;
+    height: 250%;
+    margin: 100px;
+    position: absolute;
+    left: 10%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 80px;
+    color: #F56F6C;
+}
+
+#g-row-one{
+    width: 100%;
+    height: 32%;
+    text-align: center;
+}
+
+#g-col-one{
+    width: 32%;
+    height: 55%;
+    margin-top: 25px;
+    text-align: center;
+    float: left;
+}
+
+#g-col-two{
+    width: 32%;
+    height: 55%;
+    margin-top: 25px;
+    margin-left: 24px;
+    text-align: center;
+    float: left;
+}
+
+#g-col-three{
+    width: 32%;
+    height: 55%;
+    margin-top: 25px;
+    margin-left: 24px;
+    text-align: center;
+    float: left;
+}
+
+#about{
+    height: 70%;
+    background: #c1eaef;
+}
+
+#about-box-one{
+    width: 70%;
+    height: 50%;
+    margin: 100px;
+    position: absolute;
+    left: 10%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #14474e;
+}
+
+#about-box-one-cont{
+    width: 80%;
+    height: 50%; 
+    position: absolute;
+    left: 10%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    color: #14474e;
+}
+
+#advocacy{
+    background-color: #c1eaef;
+    width: 100%;
+    height: 58%;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #14474e;
+}
+
+#advocacy img{
+    float: left;
+}
+
+#advocacy-cont{
+    width: 50%;
+    height: 45%;
+    margin-top: 50px;
+    padding: 30px;
+    position: absolute;
+    left: 43%;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 35px;
+    float: right;
+}
+
+#advocacy-title{
+    width: 100%;
+    height: 20%;
+    text-align: justify;
+    font-weight: 800;
+    font-size: 50px;
+    float: left;
+}
+
+#help{
+    background-color: #c1eaef;
+    width: 70%;
+    height: 85%;
+    margin: 30px;
+    margin-bottom: 50px;
+    padding: 30px;
+    position: absolute;
+    left: 15%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #14474e;
+}
+
+#help-cont{
+    width: 80%;
+    height: 50%;
+    margin: 10px;
+    position: absolute;
+    left: 10%;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 30px;
+    color: #14474e;
+}
+
+#contact-cont{
+    width: 80%;
+    height: 20%;
+    margin: 10px;
+    position: absolute;
+    left: 10%;
+    top: 70%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    color: #14474e;
+}
