@@ -11,6 +11,7 @@
         <li><a href="/LT3/Deypalobos_LT3.html">LEARNING TASK 3</a></li>
         <li><a href="/CLE1MT/index.html">CLE1MT</a></li>
         <li><a href="/LT4/index.html">LT4</a></li>
+        <li><a href="/LT5/index.html">LT5</a></li>
     </ul>
     </body>
 </html
